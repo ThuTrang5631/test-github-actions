@@ -1,3 +1,7 @@
+export async function generateStaticParams() {
+  return [{ id: "post-1" }, { id: "post-2" }];
+}
+
 export default function BlogPostPage() {
   return (
     <main>
