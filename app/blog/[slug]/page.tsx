@@ -1,4 +1,4 @@
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+export default function BlogPostPage() {
   return (
     <main>
       <h1>Blog post page (test build)</h1>
