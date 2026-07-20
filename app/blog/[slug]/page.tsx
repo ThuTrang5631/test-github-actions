@@ -1,5 +1,5 @@
 export async function generateStaticParams() {
-  return [{ id: "post-1" }, { id: "post-2" }];
+  return [{ slug: "post-1" }, { slug: "post-2" }];
 }
 
 export default function BlogPostPage() {
